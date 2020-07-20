@@ -159,10 +159,10 @@ THREE.Lut.prototype = {
 
         this.legend.texture = new THREE.Texture( this.legend.canvas );
 
-        imageData = this.legend.ctx.getImageData( 0, 0, 1, this.n );
+        let imageData = this.legend.ctx.getImageData( 0, 0, 1, this.n );
 
-        data = imageData.data;
-        len = data.length;
+        let data = imageData.data;
+        let len = data.length;
 
         this.map = THREE.ColorMapKeywords[ this.mapname ];
 
