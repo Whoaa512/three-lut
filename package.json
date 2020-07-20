@@ -1,6 +1,6 @@
 {
   "name": "three-lut",
-  "version": "79.0.1",
+  "version": "79.0.2",
   "description": "THREE.Lut as an npm package",
   "main": "index.js",
   "scripts": {},
